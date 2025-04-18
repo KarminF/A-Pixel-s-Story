@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4ED86382
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)is_jumping = false;$(13_10)jump_speed = -18;$(13_10)gravity = 0.5;$(13_10)ground_y = 770;"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)jumping = false;$(13_10)jump_speed = -18;$(13_10)gravity = 0.5;$(13_10)ground_y = 770;"
 /// @description Execute Code
-is_jumping = false;
+jumping = false;
 jump_speed = -18;
 gravity = 0.5;
 ground_y = 770;
