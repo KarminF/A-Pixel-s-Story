@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_little_slimex27s_adventure_151007",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":103.20978,
+  "name":"snd_little_slimex27s_adventure_151007",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_little_slimex27s_adventure_151007.mp3",
+  "type":0,
+  "volume":1.0,
+}

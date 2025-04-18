@@ -1,0 +1,50 @@
+# GameMaker build artifacts
+*.yyz
+*.yymps
+*.zip
+*.exe
+*.dll
+*.dmg
+*.apk
+*.appx
+*.ios
+*.so
+*.pyc
+*.pdb
+
+# GameMaker cache & compile outputs
+/.build/
+/output/
+/temp/
+/.config/
+
+/.yyc/
+/.yyp-cache/
+/.gmx/
+/.idea/
+/.vscode/
+
+# GameMaker generated files (IDE-specific)
+*.log
+*.sln
+*.suo
+*.user
+*.tmp
+*.bak
+
+# GameMaker backup files
+*.autosave
+*.backup
+*.recovery
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git-related
+*.orig
+*.rej
+
+# Optional: ignore image source files if not needed in repo
+# /assets/sprites/source/
