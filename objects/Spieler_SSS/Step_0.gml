@@ -1,3 +1,28 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 273ADD99
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)show_debug_message(string(x)+" "+string(y));$(13_10)$(13_10)// jump function$(13_10)if (keyboard_check_pressed(vk_space) && !jumping){$(13_10)	show_debug_message("jumping");$(13_10)	y -= 2;$(13_10)    vspeed = jump_speed;$(13_10)    jumping = true;$(13_10)}   $(13_10)  $(13_10)vspeed += gravity;$(13_10)$(13_10)if (y >= ground_y) {$(13_10)    y = ground_y;$(13_10)    vspeed = 0;$(13_10)    jumping = false; $(13_10)}$(13_10)$(13_10)y += vspeed;"
+/// @description Execute Code
+show_debug_message(string(x)+" "+string(y));
+
+// jump function
+if (keyboard_check_pressed(vk_space) && !jumping){
+	show_debug_message("jumping");
+	y -= 2;
+    vspeed = jump_speed;
+    jumping = true;
+}   
+  
+vspeed += gravity;
+
+if (y >= ground_y) {
+    y = ground_y;
+    vspeed = 0;
+    jumping = false; 
+}
+
+y += vspeed;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0302261F
